@@ -1,7 +1,0 @@
-{
-  "setName": "Aigle de la frontière du crépuscule",
-  "setEffects": {
-    "2": "Augmente les DGT de vent de {{1, percent}}%.",
-    "4": "Après que le porteur utilise son ultime, son action est avancée de {{1, percent}}%."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "name": "Dồi Dào",
-  "passive": {
-    "name": "Phồn Thịnh",
-    "description": "Khi người trang bị thi triển Chiến Kỹ và Tuyệt Kỹ, lượng Trị Liệu tăng <orangeStrong>{{1, percent}}%</orangeStrong>."
-  }
-}

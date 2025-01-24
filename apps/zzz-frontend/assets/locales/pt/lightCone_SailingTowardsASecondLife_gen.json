@@ -1,7 +1,0 @@
-{
-  "name": "Velejando em Direção a uma Segunda Vida",
-  "passive": {
-    "name": "Mar Bravo",
-    "description": "Aumenta o Efeito de Quebra do usuário em <orangeStrong>{{1, percent}}%</orangeStrong>. O Dano de Quebra causado pelo usuário ignora <orangeStrong>{{3, percent}}%</orangeStrong> da DEF do alvo. Quando o Efeito de Quebra do usuário em batalha está em {{2, percent}}% ou maior, aumenta sua VEL em <orangeStrong>{{4, percent}}%</orangeStrong>."
-  }
-}

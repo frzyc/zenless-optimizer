@@ -1,7 +1,0 @@
-{
-  "name": "Good Night and Sleep Well",
-  "passive": {
-    "name": "Toiler",
-    "description": "Setiap 1 efek Debuff yang dimiliki target musuh akan meningkatkan <orangeStrong>{{1, percent}}%</orangeStrong> DMG pengguna pada musuh tersebut, dapat ditumpuk hingga {{2}} lapis. Efek ini juga berlaku untuk DoT."
-  }
-}

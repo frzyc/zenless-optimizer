@@ -1,7 +1,0 @@
-{
-  "name": "Defesa",
-  "passive": {
-    "name": "Revitalização",
-    "description": "Ao usar sua Perícia Suprema, o usuário restaura PV em <orangeStrong>{{1, percent}}%</orangeStrong> de seus PV máximos."
-  }
-}

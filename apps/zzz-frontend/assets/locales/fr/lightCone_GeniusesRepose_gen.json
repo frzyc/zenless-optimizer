@@ -1,7 +1,0 @@
-{
-  "name": "Repos des génies",
-  "passive": {
-    "name": "Chacun son rôle",
-    "description": "Augmente l'ATQ du porteur de <orangeStrong>{{1, percent}}%</orangeStrong>. Lorsqu'il élimine un ennemi, les DGT critiques du porteur augmentent de <orangeStrong>{{2, percent}}%</orangeStrong> pendant {{3}} tours."
-  }
-}

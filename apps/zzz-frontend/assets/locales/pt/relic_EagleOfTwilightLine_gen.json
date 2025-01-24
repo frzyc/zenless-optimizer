@@ -1,7 +1,0 @@
-{
-  "setName": "Águia da Linha do Crepúsculo",
-  "setEffects": {
-    "2": "Aumenta o Dano de Vento em {{1, percent}}%.",
-    "4": "Após o usuário usar a Perícia Suprema, sua ação é Avançada Adiante em {{1, percent}}%."
-  }
-}

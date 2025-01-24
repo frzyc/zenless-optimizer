@@ -1,7 +1,0 @@
-{
-  "setName": "Musketeer of Wild Wheat",
-  "setEffects": {
-    "2": "Increases ATK by {{1, percent}}%.",
-    "4": "The wearer's SPD increases by {{1, percent}}% and DMG dealt by Basic ATK increases by {{2, percent}}%."
-  }
-}

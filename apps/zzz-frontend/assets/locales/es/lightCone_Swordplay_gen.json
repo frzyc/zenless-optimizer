@@ -1,7 +1,0 @@
-{
-  "name": "Juego de espadas",
-  "passive": {
-    "name": "Sus propias respuestas",
-    "description": "Cuando el portador golpea a un mismo objetivo varias veces, el daño infligido cada vez aumenta en un <orangeStrong>{{1, percent}}%</orangeStrong>. Este efecto se puede acumular hasta {{2}} veces y se elimina si se cambia de objetivo."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "name": "Résistance",
-  "passive": {
-    "name": "Alliance",
-    "description": "La VIT du porteur augmente de <orangeStrong>{{1, percent}}%</orangeStrong> pendant {{2}} tours lorsqu'il élimine un ennemi."
-  }
-}

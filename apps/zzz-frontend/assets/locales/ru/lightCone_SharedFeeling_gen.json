@@ -1,7 +1,0 @@
-{
-  "name": "Общие чувства",
-  "passive": {
-    "name": "Лечение и починка",
-    "description": "Исходящее исцеление владельца повышается на <orangeStrong>{{1, percent}}%</orangeStrong>. Использование навыка владельца восстанавливает всем союзникам <orangeStrong>{{2, fixed(fixed: 1)}}</orangeStrong> ед. энергии."
-  }
-}

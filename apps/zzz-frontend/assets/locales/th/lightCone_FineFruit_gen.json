@@ -1,7 +1,0 @@
-{
-  "name": "Fine Fruit",
-  "passive": {
-    "name": "Savor",
-    "description": "เมื่อการต่อสู้เริ่มขึ้น จะฟื้นฟูพลังงาน <orangeStrong>{{1}}</orangeStrong> หน่วย แก่ฝ่ายตัวเองทั้งหมดทันที"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "name": "Остаётся лишь тишина",
-  "passive": {
-    "name": "Запись",
-    "description": "Сила атаки владельца повышается на <orangeStrong>{{1, percent}}%</orangeStrong>. Если на поле боя имеется 2 или меньше противников, крит. шанс владельца повышается на <orangeStrong>{{2, percent}}%</orangeStrong>."
-  }
-}

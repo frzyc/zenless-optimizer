@@ -1,7 +1,0 @@
-{
-  "name": "Eyes of the Prey",
-  "passive": {
-    "name": "Self-Confidence",
-    "description": "Meningkatkan <orangeStrong>{{1, percent}}%</orangeStrong> Effect Hit Rate dan <orangeStrong>{{2, percent}}%</orangeStrong> DoT pengguna."
-  }
-}

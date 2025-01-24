@@ -1,7 +1,0 @@
-{
-  "name": "Mediation",
-  "passive": {
-    "name": "Family",
-    "description": "Meningkatkan <orangeStrong>{{1}}</orangeStrong> SPD seluruh rekan tim selama {{2}} giliran saat memasuki pertempuran."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "name": "Sono Profundo",
-  "passive": {
-    "name": "Bons Sonhos",
-    "description": "Aumenta o Dano CRIT do usuário em <orangeStrong>{{1, percent}}%</orangeStrong>. Quando o ATQ Básico ou Perícia do usuário não resulta em um Acerto CRIT, aumenta sua Chance de CRIT em <orangeStrong>{{2, percent}}%</orangeStrong>, durando por {{3}} rodada(s). Esse efeito pode ser ativado apenas uma vez a cada {{4}} rodada(s)."
-  }
-}

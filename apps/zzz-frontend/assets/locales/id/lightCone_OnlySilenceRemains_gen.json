@@ -1,7 +1,0 @@
-{
-  "name": "Only Silence Remains",
-  "passive": {
-    "name": "Record",
-    "description": "Meningkatkan <orangeStrong>{{1, percent}}%</orangeStrong> ATK pengguna. Meningkatkan <orangeStrong>{{2, percent}}%</orangeStrong> CRIT Rate pengguna saat target musuh di medan pertempuran kurang dari atau sama dengan 2."
-  }
-}
