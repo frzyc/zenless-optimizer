@@ -1,0 +1,103 @@
+{
+  "name": "停雲",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "逐客令",
+        "fullDesc": "對指定敵方單體造成等同於停雲<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的雷屬性傷害。",
+        "shortDesc": "對敵方單體造成少量雷屬性傷害。",
+        "tag": "單體攻擊"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "祥音和韻",
+        "fullDesc": "為指定我方單體提供【賜福】，使其攻擊力提高<orangeStrong>{{2, percent}}%</orangeStrong>，最高不超過停雲當下攻擊力的<orangeStrong>{{4, percent}}%</orangeStrong>。<br>獲得【賜福】的目標發動攻擊後，會額外造成1次等同於其自身<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的雷屬性附加傷害。<br>【賜福】持續{{3}}回合且僅對停雲戰技最新的施放目標生效。",
+        "shortDesc": "使我方單體<orangeStrong>攻擊力提高</orangeStrong>，並獲得【賜福】。【賜福】狀態下攻擊時額外造成少量<orangeStrong>雷屬性附加傷害</orangeStrong>。",
+        "tag": "輔助"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "慶雲光覆儀禱",
+        "fullDesc": "為指定我方單體恢復{{1}}點能量，同時使目標造成的傷害提高<orangeStrong>{{3, percent}}%</orangeStrong>，持續{{2}}回合。",
+        "shortDesc": "為我方單體<orangeStrong>恢復能量</orangeStrong>，並使其<orangeStrong>造成的傷害提高</orangeStrong>。",
+        "tag": "輔助"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "紫電扶搖",
+        "fullDesc": "敵方目標受到停雲攻擊後，獲得【賜福】的目標立即對其造成等同於自身<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的雷屬性附加傷害。",
+        "shortDesc": "敵人受到停雲攻擊後，獲得【賜福】的目標立即對其造成少量雷屬性附加傷害。",
+        "tag": "強化"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "惠風和暢",
+        "fullDesc": "使用秘技後立即為自身恢復{{1}}點能量。",
+        "shortDesc": "使用秘技後立即為自身恢復能量。",
+        "tag": "輔助"
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "攻擊",
+        "fullDesc": "攻擊敵人，進入戰鬥後削弱敵方目標對應屬性韌性。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "駐晴",
+        "fullDesc": "施放戰技時，停雲自身速度提高{{1, percent}}%，持續1回合。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "止厄",
+        "fullDesc": "普通攻擊造成的傷害提高{{1, percent}}%。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "亨通",
+        "fullDesc": "停雲的回合開始時，自身立即恢復{{1}}點能量。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "春風得意，時運馳騁",
+      "desc": "得到【賜福】的我方單體施放終結技後速度提高{{1, percent}}%，持續1回合。"
+    },
+    "2": {
+      "name": "君子惠渥，晏笑承之",
+      "desc": "得到【賜福】的我方單體在消滅敵方目標時恢復{{1}}點能量，該效果每回合只能觸發1次。"
+    },
+    "3": {
+      "name": "青丘遺澤",
+      "desc": "終結技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+    "4": {
+      "name": "鳴火機變，度時察勢",
+      "desc": "【賜福】附加的傷害倍率提高{{1, percent}}%。"
+    },
+    "5": {
+      "name": "綏綏狐魅",
+      "desc": "戰技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+    "6": {
+      "name": "和氣生財，澤盈四方",
+      "desc": "終結技為我方目標恢復的能量提高{{1}}點。"
+    }
+  }
+}

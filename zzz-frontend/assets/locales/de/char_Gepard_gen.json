@@ -1,0 +1,103 @@
+{
+  "name": "Gepard",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "Faust der Überzeugung",
+        "fullDesc": "Fügt einem anvisierten Gegner Eis-SCH in Höhe von <orangeStrong>{{1, percent}}%</orangeStrong> von Gepards ANG zu.",
+        "shortDesc": "Fügt einem Gegner geringen Eis-SCH zu.",
+        "tag": "Einzelangriff"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Einschüchternder Schlag",
+        "fullDesc": "Fügt einem anvisierten Gegner Eis-SCH in Höhe von <orangeStrong>{{1, percent}}%</orangeStrong> von Gepards ANG zu und verursacht beim Ziel mit einer Grundchance von {{2, percent}}% für {{3}} Rd. Gefroren.<br>Ein gefrorener Gegner kann keine Aktionen ausführen und erleidet zu Beginn jeder Runde zusätzlichen Eis-SCH in Höhe von <orangeStrong>{{4, percent}}%</orangeStrong> von Gepards ANG.",
+        "shortDesc": "Fügt einem Gegner Eis-SCH zu und <orangeStrong>verursacht beim Ziel mit einer Chance Gefroren</orangeStrong>.",
+        "tag": "Einzelangriff"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Emporragendes Bollwerk",
+        "fullDesc": "Gewährt allen Verbündeten für {{2}} Rd. einen Schild, der SCH in Höhe von <orangeStrong>{{1, percent}}%</orangeStrong> von Gepards VTD plus <orangeStrong>{{3}}</orangeStrong> absorbiert.",
+        "shortDesc": "Gewährt allen Verbündeten einen <orangeStrong>Schild</orangeStrong>.",
+        "tag": "Verteidigung"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Unnachgiebiger Wille",
+        "fullDesc": "Gepard wird durch einen Todesstoß nicht handlungsunfähig, sondern stellt unmittelbar <orangeStrong>{{1, percent}}%</orangeStrong> seiner max. LP wieder her. Dieser Effekt kann nur einmal pro Kampf ausgelöst werden.",
+        "shortDesc": "Wenn von einem Todesstoß getroffen, werden die eigenen LP sofort wiederhergestellt, <orangeStrong>anstatt handlungsunfähig zu werden</orangeStrong>. Dieser Effekt kann nur 1-mal pro Kampf ausgelöst werden.",
+        "tag": "Wiederherstellung"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Kameradschaft",
+        "fullDesc": "Die Technik gewährt allen Verbündeten zu Beginn des nächsten Kampfs einen Schild, der SCH in Höhe von {{1, percent}}% von Gepards VTD plus {{3}} für {{2}} Rd. absorbiert.",
+        "shortDesc": "Nach dem Einsatz der Technik erhalten alle Verbündeten zu Beginn des nächsten Kampfes einen Schild.",
+        "tag": "Verteidigung"
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Angriff",
+        "fullDesc": "Greift den Gegner an und schwächt nach Kampfeintritt den Widerstand des Ziels gegen den entsprechenden Typ.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Integrität",
+        "fullDesc": "Erhöht die Chance, dass Gepard angegriffen wird.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Kommandant",
+        "fullDesc": "Stellt Gepards Energie auf 100 % wieder her, wenn „Unnachgiebiger Wille“ ausgelöst wird.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Kampfgeist",
+        "fullDesc": "Erhöht Gepards ANG um {{1, percent}}% seiner aktuellen VTD. Dieser Effekt wird zu Beginn jeder Runde aktualisiert.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "Sorgfaltspflicht",
+      "desc": "Erhöht beim Einsatz der Fertigkeit die Grundchance, das Ziel einzufrieren, um {{1, percent}}%."
+    },
+    "2": {
+      "name": "Hartnäckige Kälte",
+      "desc": "Wenn der durch die Fertigkeit eingefrorene Gegner sich von „Gefroren“ erholt, sinkt seine GES für {{2}} Rd. um {{1, percent}}%."
+    },
+    "3": {
+      "name": "Niemals aufgeben",
+      "desc": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15."
+    },
+    "4": {
+      "name": "Der Glaube versetzt Berge",
+      "desc": "Erhöht den Effekt-WDS aller Verbündeten um {{1, percent}}%, wenn Gepard mitkämpft."
+    },
+    "5": {
+      "name": "Kalte Eisenfaust",
+      "desc": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10."
+    },
+    "6": {
+      "name": "Unnachgiebige Entschlossenheit",
+      "desc": "Bei Auslösung des Talents wird Gepard sofort in Aktion treten und seine LP-Wiederherstellung wird zusätzlich um {{1, percent}}% seiner max. LP erhöht."
+    }
+  }
+}

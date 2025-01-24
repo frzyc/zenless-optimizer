@@ -1,0 +1,103 @@
+{
+  "name": "瓦爾特",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "重力壓制",
+        "fullDesc": "對指定敵方單體造成等同於瓦爾特<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的虛數屬性傷害。",
+        "shortDesc": "對敵方單體造成少量虛數屬性傷害。",
+        "tag": "單體攻擊"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "虛空斷界",
+        "fullDesc": "對指定敵方單體造成等同於瓦爾特<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的虛數屬性傷害，並額外造成2次傷害。每次傷害對敵方隨機單體造成等同於瓦爾特<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的虛數屬性傷害。攻擊命中時有<orangeStrong>{{2, percent}}%</orangeStrong>的基礎機率使受到攻擊的敵方目標速度降低{{3, percent}}%，持續{{4}}回合。",
+        "shortDesc": "對敵方單體造成少量虛數屬性傷害，共彈射3次，有機率對目標<orangeStrong>施加減速狀態</orangeStrong>。",
+        "tag": "彈射"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "擬似黑洞",
+        "fullDesc": "對敵方全體造成等同於瓦爾特<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的虛數屬性傷害，有{{3, percent}}%的基礎機率使受到攻擊的敵方目標陷入禁錮狀態，持續1回合。<br>禁錮狀態下，敵方目標行動延後<orangeStrong>{{2, percent(fixed: 1)}}%</orangeStrong>、速度降低{{4, percent}}%。",
+        "shortDesc": "對敵方全體造成虛數屬性傷害，<orangeStrong>有高機率施加禁錮效果</orangeStrong>。",
+        "tag": "群體攻擊"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "時空扭曲",
+        "fullDesc": "擊中處於減速狀態的敵方目標時，額外造成1次等同於瓦爾特<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的虛數屬性附加傷害。",
+        "shortDesc": "命中處於減速狀態的敵方目標時，<orangeStrong>額外造成少量虛數屬性附加傷害</orangeStrong>。",
+        "tag": "強化"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "畫地為牢",
+        "fullDesc": "使用秘技後，製造1片持續{{4}}秒的特殊領域。處於特殊領域內的敵人移動速度降低{{5, percent}}%。與處於特殊領域內的敵人進入戰鬥後，有{{1, percent}}%的基礎機率使敵方目標陷入禁錮狀態，持續1回合。<br>禁錮狀態下，敵方目標行動延後{{2, percent}}%，速度降低{{3, percent}}%。我方製造的領域效果最多存在1個。",
+        "shortDesc": "製造特殊領域。領域內敵人移動速度降低。與領域內敵人進入戰鬥後，<orangeStrong>有高機率使敵方目標陷入禁錮狀態</orangeStrong>。",
+        "tag": "妨害"
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "攻擊",
+        "fullDesc": "攻擊敵人，進入戰鬥後削弱敵方目標對應屬性韌性。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "懲戒",
+        "fullDesc": "施放終結技時，有{{1, percent}}%基礎機率使目標受到的傷害提高{{2, percent}}%，持續{{3}}回合。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "審判",
+        "fullDesc": "施放終結技時，額外回復{{1}}點能量。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "裁決",
+        "fullDesc": "對被弱點擊破的敵方目標造成的傷害提高{{1, percent}}%。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "名的傳承",
+      "desc": "施放終結技後，瓦爾特獲得強化，在隨後{{3}}次發動普通攻擊或戰技時額外對敵方目標造成1次附加傷害。發動普通攻擊造成的附加傷害等同於普通攻擊傷害倍率的{{1, percent}}%，施放戰技造成的附加傷害等同於戰技傷害倍率的{{2, percent}}%。"
+    },
+    "2": {
+      "name": "星的凝聚",
+      "desc": "觸發天賦時，瓦爾特回復{{1}}點能量。"
+    },
+    "3": {
+      "name": "和平的祈願",
+      "desc": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+    "4": {
+      "name": "義的名號",
+      "desc": "施放戰技時，使受到攻擊的敵方目標速度降低的基礎機率提高{{1, percent}}%。"
+    },
+    "5": {
+      "name": "善的力量",
+      "desc": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+    "6": {
+      "name": "光明的未來",
+      "desc": "施放戰技時，對隨機敵方單體額外造成1次傷害。"
+    }
+  }
+}

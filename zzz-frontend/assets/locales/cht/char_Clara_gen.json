@@ -1,0 +1,103 @@
+{
+  "name": "克拉拉",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "我也想幫上忙",
+        "fullDesc": "對指定敵方單體造成等同於克拉拉<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的物理屬性傷害。",
+        "shortDesc": "對敵方單體造成少量物理屬性傷害。",
+        "tag": "單體攻擊"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "史瓦羅在看著你",
+        "fullDesc": "對敵方全體造成等同於克拉拉<orangeStrong>{{1, percent}}%</orangeStrong>攻擊力的物理屬性傷害，並對所有被史瓦羅標上【反擊標記】的敵方目標額外造成等同於克拉拉<orangeStrong>{{2, percent}}%</orangeStrong>攻擊力的物理屬性傷害。<br>戰技施放後所有【反擊標記】失效。",
+        "shortDesc": "對敵方全體造成物理屬性傷害，對持有【反擊標記】的目標<orangeStrong>額外造成物理傷害</orangeStrong>。",
+        "tag": "群體攻擊"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "是約定不是命令",
+        "fullDesc": "施放終結技後克拉拉受到的傷害額外降低<orangeStrong>{{4, percent}}%</orangeStrong>且被敵方攻擊的機率大幅提高，持續{{3}}回合。<br>同時史瓦羅的反擊得到強化，當任意我方目標受到攻擊後，史瓦羅會立即發動反擊，對敵方目標造成的傷害倍率提高<orangeStrong>{{2, percent}}%</orangeStrong>，並對其相鄰目標造成相當於主目標50%的傷害。強化效果可生效{{5}}次。",
+        "shortDesc": "自身<orangeStrong>受到的傷害降低</orangeStrong>、被攻擊的機率提高，並強化反擊的效果。",
+        "tag": "強化"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "因為我們是家人",
+        "fullDesc": "克拉拉在史瓦羅的保護下，受到敵方目標攻擊的傷害降低{{3, percent}}%。攻擊克拉拉的敵方目標會被史瓦羅標上【反擊標記】，並遭到史瓦羅的反擊，對其造成等同於克拉拉<orangeStrong>{{2, percent}}%</orangeStrong>攻擊力的物理屬性傷害。",
+        "shortDesc": "自身<orangeStrong>受到敵方目標攻擊的傷害降低</orangeStrong>。發動攻擊的敵方目標會被標上【反擊標記】，並<orangeStrong>遭到史瓦羅的反擊</orangeStrong>，受到物理屬性傷害。",
+        "tag": "單體攻擊"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "勝利的小小代價",
+        "fullDesc": "立即攻擊敵人，進入戰鬥後克拉拉受到敵方攻擊的機率提高，持續{{1}}回合。",
+        "shortDesc": "攻擊敵人，進入戰鬥後受到敵人攻擊的機率提高。",
+        "tag": ""
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "攻擊",
+        "fullDesc": "攻擊敵人，進入戰鬥後削弱敵方目標對應屬性韌性。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "家人",
+        "fullDesc": "受到攻擊時有{{1, percent}}%的固定機率解除自身1個負面效果。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "守護",
+        "fullDesc": "抵抗控制類負面狀態的機率提高{{1, percent}}%。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "復仇",
+        "fullDesc": "史瓦羅的反擊造成的傷害提高{{1, percent}}%。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "高大的背影",
+      "desc": "施放戰技後，不會清除敵方目標的【反擊標記】。"
+    },
+    "2": {
+      "name": "緊緊的擁抱",
+      "desc": "施放終結技後，攻擊力提高{{1, percent}}%，持續{{2}}回合。"
+    },
+    "3": {
+      "name": "冰冷的鋼甲",
+      "desc": "戰技等級+2，最多不超過15級；普通攻擊等級+1，最多不超過10級。"
+    },
+    "4": {
+      "name": "家人的溫暖",
+      "desc": "受到攻擊後，克拉拉受到的傷害降低{{1, percent}}%，效果持續到自己的下個回合開始。"
+    },
+    "5": {
+      "name": "小小的承諾",
+      "desc": "終結技等級+2，最多不超過15級；天賦等級+2，最多不超過15級。"
+    },
+    "6": {
+      "name": "長久的陪伴",
+      "desc": "我方其他目標遭到攻擊後，史瓦羅也有{{1, percent}}%的固定機率觸發對攻擊者的反擊，並對攻擊目標新增【反擊標記】。施放終結技時，額外增加{{2}}次強化反擊的次數。"
+    }
+  }
+}

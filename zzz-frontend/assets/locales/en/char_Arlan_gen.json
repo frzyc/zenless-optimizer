@@ -1,0 +1,103 @@
+{
+  "name": "Arlan",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "Lightning Rush",
+        "fullDesc": "Deals Lightning DMG equal to <orangeStrong>{{1, percent}}%</orangeStrong> of Arlan's ATK to a single enemy.",
+        "shortDesc": "Deals minor Lightning DMG to a single enemy.",
+        "tag": "Single Target"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Shackle Breaker",
+        "fullDesc": "Consumes Arlan's HP equal to {{1, percent}}% of his Max HP to deal Lightning DMG equal to <orangeStrong>{{2, percent}}%</orangeStrong> of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "shortDesc": "Consumes a portion of HP to deal Lightning DMG to a single enemy.",
+        "tag": "Single Target"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Frenzied Punishment",
+        "fullDesc": "Deals Lightning DMG equal to <orangeStrong>{{1, percent}}%</orangeStrong> of Arlan's ATK to a single enemy and Lightning DMG equal to <orangeStrong>{{2, percent}}%</orangeStrong> of Arlan's ATK to enemies adjacent to it.",
+        "shortDesc": "Deals massive Lightning DMG to a single enemy and Lightning DMG to enemies adjacent to it.",
+        "tag": "Blast"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Pain and Anger",
+        "fullDesc": "Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of <orangeStrong>{{1, percent}}%</orangeStrong> DMG dealt by Arlan.",
+        "shortDesc": "Gain DMG bonus <orangeStrong>based on</orangeStrong> <orangeStrong>currently missing HP percentage</orangeStrong>.",
+        "tag": "Enhance"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Swift Harvest",
+        "fullDesc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to {{1, percent}}% of Arlan's ATK to all enemies.",
+        "shortDesc": "Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.",
+        "tag": ""
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Attack",
+        "fullDesc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Revival",
+        "fullDesc": "If the current HP percentage is {{1, percent}}% or lower when defeating an enemy, immediately restores HP equal to {{2, percent}}% of Max HP.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Endurance",
+        "fullDesc": "The chance to resist DoT Debuffs increases by {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Repel",
+        "fullDesc": "Upon entering battle, if Arlan's HP percentage is less than or equal to {{1, percent}}%, he can nullify all DMG received except for DoTs until he is attacked.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "To the Bitter End",
+      "desc": "When HP percentage is lower than or equal to 50% of Max HP, increases DMG dealt by Skill by {{1, percent}}%."
+    },
+    "2": {
+      "name": "Breaking Free",
+      "desc": "Using Skill or Ultimate removes 1 debuff from this unit."
+    },
+    "3": {
+      "name": "Power Through",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    "4": {
+      "name": "Turn the Tables",
+      "desc": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to {{1, percent}}% of his Max HP. This effect is automatically removed after it is triggered once or after {{2}} turn(s) have elapsed."
+    },
+    "5": {
+      "name": "Hammer and Tongs",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15."
+    },
+    "6": {
+      "name": "Self-Sacrifice",
+      "desc": "When the current HP percentage drops to 50% or below, Ultimate deals {{1, percent}}% more DMG, and the DMG multiplier for adjacent targets is raised to the same level as that for the primary target."
+    }
+  }
+}

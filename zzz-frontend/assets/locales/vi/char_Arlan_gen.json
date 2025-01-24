@@ -1,0 +1,103 @@
+{
+  "name": "Arlan",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "Nhanh Như Sấm Chớp",
+        "fullDesc": "Gây Sát Thương Lôi cho 1 kẻ địch chỉ định tương đương <orangeStrong>{{1, percent}}%</orangeStrong> Tấn Công của Arlan.",
+        "shortDesc": "Gây lượng nhỏ Sát Thương Lôi cho 1 kẻ địch.",
+        "tag": "Đánh Đơn"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Giải Trừ Giam Cầm",
+        "fullDesc": "Tiêu hao HP bằng {{1, percent}}% Giới Hạn HP của Arlan, để gây cho 1 kẻ địch chỉ định Sát Thương Lôi tương đương <orangeStrong>{{2, percent}}%</orangeStrong> Tấn Công của Arlan. Nếu HP hiện tại không đủ, khi thi triển Chiến Kỹ, HP hiện tại của Arlan sẽ giảm còn 1 điểm.",
+        "shortDesc": "Tiêu hao một phần HP bản thân, gây Sát Thương Lôi cho 1 kẻ địch.",
+        "tag": "Đánh Đơn"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Trừng Trị Cuồng Giả",
+        "fullDesc": "Gây Sát Thương Lôi cho 1 kẻ địch chỉ định tương đương <orangeStrong>{{1, percent}}%</orangeStrong> Tấn Công của Arlan, đồng thời gây Sát Thương Lôi cho mục tiêu lân cận kẻ đó tương đương <orangeStrong>{{2, percent}}%</orangeStrong> Tấn Công của Arlan.",
+        "shortDesc": "Gây lượng lớn Sát Thương Lôi cho 1 kẻ địch, gây Sát Thương Lôi cho mục tiêu lân cận.",
+        "tag": "Khuếch Tán"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Đau Đớn Cùng Cực",
+        "fullDesc": "Tăng sát thương dựa trên phần trăm HP mất đi hiện tại của Arlan, tối đa tăng <orangeStrong>{{1, percent}}%</orangeStrong> sát thương Arlan gây ra.",
+        "shortDesc": "<orangeStrong>Tăng sát thương dựa theo Phần Trăm HP đã mất hiện tại</orangeStrong> <orangeStrong>của bản thân</orangeStrong>.",
+        "tag": "Cường Hóa"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Dứt Điểm Cực Tốc",
+        "fullDesc": "Tấn công kẻ địch ngay lập tức, sau khi vào chiến đấu, sẽ gây Sát Thương Lôi cho toàn bộ kẻ địch tương đương {{1, percent}}% Tấn Công của Arlan.",
+        "shortDesc": "Tấn công kẻ địch, sau khi vào trận sẽ gây một lượng nhỏ Sát Thương Lôi cho toàn bộ kẻ địch.",
+        "tag": ""
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Tấn Công",
+        "fullDesc": "Tấn công kẻ địch, sau khi vào chiến đấu sẽ làm giảm Sức Bền mang thuộc tính tương ứng của địch.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Hồi Sinh",
+        "fullDesc": "Khi tiêu diệt kẻ địch, nếu Phần Trăm HP hiện tại thấp hơn hoặc bằng {{1, percent}}%, sẽ hồi ngay HP bằng {{2, percent}}% Giới Hạn HP của bản thân.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Kiên Nhẫn",
+        "fullDesc": "Tăng {{1, percent}}% tỷ lệ Kháng Hiệu Ứng Xấu dạng Sát Thương Duy Trì.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Chống Cự",
+        "fullDesc": "Khi vào chiến đấu, nếu Phần Trăm HP hiện tại nhỏ hơn hoặc bằng {{1, percent}}%, thì Arlan có thể kháng tất cả sát thương ngoại trừ sát thương duy trì. Sau khi Arlan bị tấn công, hiệu ứng này sẽ giải trừ.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "Dù Chết Không Từ",
+      "desc": "Khi Phần Trăm HP hiện tại nhỏ hơn hoặc bằng 50% thì sát thương mà Chiến Kỹ gây ra tăng {{1, percent}}%."
+    },
+    "2": {
+      "name": "Giải Thoát Trói Buộc",
+      "desc": "Khi thi triển Chiến Kỹ và Tuyệt Kỹ, sẽ giải trừ 1 Hiệu Ứng Xấu của bản thân."
+    },
+    "3": {
+      "name": "Trọng Kiếm Cường Công",
+      "desc": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+    },
+    "4": {
+      "name": "Phản Kích Tuyệt Diệu",
+      "desc": "Khi vào chiến đấu, nếu chịu tấn công chí tử, Arlan sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời hồi ngay đến {{1, percent}}% Giới Hạn HP của bản thân. Hiệu ứng này sẽ tự động giải trừ sau khi kích hoạt 1 lần hoặc sau khi duy trì {{2}} hiệp."
+    },
+    "5": {
+      "name": "Trút Xuống Toàn Lực",
+      "desc": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+    },
+    "6": {
+      "name": "Lấy Mình Làm Gương",
+      "desc": "Khi phần trăm HP hiện tại nhỏ hơn hoặc bằng 50% thì sát thương mà Tuyệt Kỹ gây ra tăng {{1, percent}}%, và Bội Số Sát Thương cho mục tiêu gần kề tăng đến Bội Số Sát Thương bằng với mục tiêu chính."
+    }
+  }
+}

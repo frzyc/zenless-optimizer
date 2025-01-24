@@ -1,0 +1,7 @@
+{
+  "name": "Après la chute",
+  "passive": {
+    "name": "Quiétude",
+    "description": "Augmente l'effet de Rupture du porteur de <orangeStrong>{{1, percent}}%</orangeStrong>. Augmente la VIT de <orangeStrong>{{2, percent}}%</orangeStrong> pendant {{3}} tours lorsque le porteur utilise son ultime."
+  }
+}
