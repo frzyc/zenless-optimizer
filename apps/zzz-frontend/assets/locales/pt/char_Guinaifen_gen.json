@@ -1,0 +1,103 @@
+{
+  "name": "Guinaifen",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "Chuva de Aplausos",
+        "fullDesc": "Causa Dano de Fogo igual a <orangeStrong>{{1, percent}}%</orangeStrong> do ATQ de Guinaifen a um único inimigo.",
+        "shortDesc": "Causa Dano de Fogo leve a um único inimigo.",
+        "tag": "Alvo Único"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Recepção Escaldante",
+        "fullDesc": "Causa <orangeStrong>{{1, percent}}%</orangeStrong> do ATQ de Guinaifen como Dano de Fogo a um único inimigo, além de <orangeStrong>{{2, percent}}%</orangeStrong> do ATQ de Guinaifen como Dano de Fogo a inimigos adjacentes, com {{3, percent}}% de chance-base de infligir Queimadura no alvo e alvos adjacentes. Enquanto estiverem afligidos com Queimadura, inimigos recebem <orangeStrong>{{4, percent}}%</orangeStrong> do ATQ de Guinaifen como um Dano de Fogo Contínuo no início de cada rodada, com duração de {{5}} rodada(s).",
+        "shortDesc": "Causa Dano de Fogo a um único inimigo e Dano de Fogo leve a inimigos adjacentes, com altas chances de causar <orangeStrong>Queimadura</orangeStrong> a eles.",
+        "tag": "Explosão"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Se Liga Nisso",
+        "fullDesc": "Causa <orangeStrong>{{1, percent(fixed: 1)}}%</orangeStrong> do ATQ de Guinaifen como Dano de Fogo a todos os inimigos. Se o inimigo-alvo já estiver com Queimadura no momento, o estado de Queimadura produz imediatamente <orangeStrong>{{2, percent}}%</orangeStrong> do seu Dano original.",
+        "shortDesc": "Causa Dano de Fogo a todos os inimigos. Se os inimigos já estiverem com Queimadura, o estado de Queimadura causa Dano 1 vez extra.",
+        "tag": "Área"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Benefícios do PatrAeon",
+        "fullDesc": "Quando Guinaifen estiver em campo, há {{1, percent}}% de chance-base de aplicar Beijo de Fogo em um inimigo após seu estado de Queimadura causar Dano. Enquanto estiver afligido com Beijo de Fogo, o inimigo recebe <orangeStrong>{{4, percent(fixed: 1)}}%</orangeStrong> a mais de Dano por {{5}} rodada(s), podendo acumular até {{6}} vez(es).",
+        "shortDesc": "Após o <orangeStrong>estado de Queimadura causar Dano</orangeStrong> no inimigo, há altas chances de aplicar <orangeStrong>Beijo de Fogo</orangeStrong> no inimigo.",
+        "tag": "Incapacitação"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Demonstração de Habilidades",
+        "fullDesc": "Ataca o inimigo imediatamente. Depois de entrar na batalha, causa Dano {{2}} vez(es), causando {{1, percent}}% do ATQ de Guinaifen como Dano de Fogo a um único inimigo-alvo aleatório a cada vez, com uma chance-base de {{3, percent}}% de infligir Beijo de Fogo a ele.",
+        "shortDesc": "Ataca o inimigo. Depois de entrar em batalha, causa Dano de Fogo leve a um inimigo-alvo com altas chances de aplicar <orangeStrong>\"Beijo de Fogo\"</orangeStrong>, com um total de 4 Rebotes.",
+        "tag": ""
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Ataque",
+        "fullDesc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Mastros Altos",
+        "fullDesc": "O ATQ Básico tem {{1, percent}}% de chance-base de infligir \"Queimadura\" em um inimigo, equivalente à da Perícia.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Aros com Lâminas",
+        "fullDesc": "No começo da batalha, a ação de Guinaifen é Avançada Adiante em {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Caminhando em Facas",
+        "fullDesc": "Causa {{1, percent}}% a mais de Dano a inimigos com Queimadura.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "Comendo Macarrão Plantando Bananeira",
+      "desc": "Ao usar a Perícia, há {{1, percent}}% de chance-base de reduzir a RES a Efeito do inimigo-alvo atacado em {{2, percent}}% por {{3}} rodada(s)."
+    },
+    "2": {
+      "name": "Escovando os Dentes Enquanto Assovia",
+      "desc": "Quando um inimigo-alvo estiver com Queimadura, o multiplicador de Dano do estado de Queimadura aplicado pelo ATQ Básico ou Perícia de Guinaifen aumenta em {{1, percent}}%."
+    },
+    "3": {
+      "name": "Destruindo Pedras com o Peito",
+      "desc": "Nv. da Perícia +2, até no máximo Nv. 15.<br>Nv. do ATQ Básico +1, até no máximo Nv. 10."
+    },
+    "4": {
+      "name": "Bloqueando Lanças com o Pescoço",
+      "desc": "Toda vez que o estado de Queimadura infligido por Guinaifen causar Dano, Guinaifen regenera {{1}} de Energia."
+    },
+    "5": {
+      "name": "Engolindo Espadas",
+      "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.<br>Nv. do Talento +2, até no máximo Nv. 15."
+    },
+    "6": {
+      "name": "Pegando Projéteis com as Mãos",
+      "desc": "Aumenta o acúmulo máximo de Beijo de Fogo em {{1}}."
+    }
+  }
+}

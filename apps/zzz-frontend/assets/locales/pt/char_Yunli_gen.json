@@ -1,0 +1,103 @@
+{
+  "name": "Yunli",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "Salto dos Ventos Rodopiantes",
+        "fullDesc": "Causa Dano Físico igual a <orangeStrong>{{1, percent}}%</orangeStrong> do ATQ de Yunli a um único inimigo-alvo.",
+        "shortDesc": "Causa Dano Físico leve a um único inimigo.",
+        "tag": "Alvo Único"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Terremoto de Lâminas",
+        "fullDesc": "Restaura PV igual a <orangeStrong>{{3, percent(fixed: 1)}}%</orangeStrong> do ATQ de Yunli + <orangeStrong>{{4}}</orangeStrong>. Causa Dano Físico igual a <orangeStrong>{{1, percent}}%</orangeStrong> do ATQ de Yunli a um único inimigo-alvo e Dano Físico igual a <orangeStrong>{{2, percent}}%</orangeStrong> do ATQ de Yunli a alvos adjacentes.",
+        "shortDesc": "Restaura os PV desta unidade. Causa Dano Físico a uma unidade inimiga e Dano Físico leve aos alvos adjacentes.",
+        "tag": "Explosão"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Amarras da Terra, Quebra de Éter",
+        "fullDesc": "Consome {{8}} de Energia. Yunli ganha Apara e aplica Provocação em todos os inimigos, durando até o final da próxima rodada de um aliado ou um inimigo. Aumenta o Dano CRIT do próximo Contra-Ataque de Yunli em <orangeStrong>{{2, percent}}%</orangeStrong>. Ao ativar o efeito de Contra-Ataque do Talento, desfere Contra-Ataque \"Intuito: Abatedora\" ao invés disso e remove o efeito de Apara. Se nenhum Contra-Ataque for ativado enquanto Apara estiver ativa, Yunli realizará imediatamente um Contra-Ataque \"Intuito: Corte\" em um inimigo-alvo aleatório.<br>\"Intuito: Corte\": causa Dano Físico ao alvo igual a <orangeStrong>{{1, percent}}%</orangeStrong> do ATQ de Yunli, e causa Dano Físico a alvos adjacentes igual a <orangeStrong>{{6, percent}}%</orangeStrong> do ATQ de Yunli.<br>\"Intuito: Abatedora\": causa Dano Físico igual a <orangeStrong>{{1, percent}}%</orangeStrong> do ATQ de Yunli ao alvo, e causa Dano Físico igual a <orangeStrong>{{6, percent}}%</orangeStrong> do ATQ de Yunli a alvos adjacentes. Então, adicionalmente, causa {{4}} ocorrências de Dano, com cada vez causando Dano Físico igual a <orangeStrong>{{7, percent}}%</orangeStrong> do ATQ de Yunli a um único inimigo-alvo aleatório.<br>Quando Yunli causa Dano através desta habilidade, esse Dano será considerado Dano de Perícia Suprema.",
+        "shortDesc": "Entra em \"Apara\" e provoca todos os inimigos. Ao atacar durante este período, ativa um <orangeStrong>Contra-Ataque poderoso</orangeStrong> e <orangeStrong>causa Dano Físico</orangeStrong> ao atacante e alvos adjacentes. Então, causa Dano Físico leve a um único inimigo-alvo que ricocheteia 6 vezes. Se nenhum Contra-Ataque for acionado durante o estado de Apara, causa Dano Físico a um inimigo-alvo aleatório e alvos adjacentes quando Apara acaba.",
+        "tag": "Aprimoramento"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Forja Fulgurante",
+        "fullDesc": "Quando Yunli é atacada por um inimigo-alvo, adicionalmente regenera {{3}} de Energia e imediatamente desfere um Contra-Ataque contra o atacante, causando Dano Físico igual a <orangeStrong>{{1, percent}}%</orangeStrong> do ATQ de Yunli ao atacante e Dano Físico igual a <orangeStrong>{{2, percent}}%</orangeStrong> do ATQ de Yunli aos alvos adjacentes.<br>Se não houver nenhum alvo para receber o Contra-Ataque imediatamente, então o Contra-Ataque é desferido contra um inimigo-alvo aleatório.",
+        "shortDesc": "Quando Yunli é atacada por qualquer inimigo-alvo, ela adicionalmente regenera Energia e imediatamente realiza um Contra-Ataque, causando Dano Físico ao atacante e Dano Físico leve aos alvos adjacentes.",
+        "tag": "Explosão"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Predecessor Posterior",
+        "fullDesc": "Esta unidade ganha o efeito de Sentinela, durando por {{2}} segundos. Durante este tempo, ao entrar em combate atacando inimigos ou recebendo um ataque, utiliza imediatamente \"Intuito: Abatedora\" em um inimigo aleatório, e aumenta o Dano causado por este ataque em {{1, percent}}%.",
+        "shortDesc": "Esta unidade ganha o efeito de Sentinela, durando por 20 segundos. Durante este tempo, ao entrar em combate atacando inimigos ou recebendo um ataque, utiliza imediatamente \"Intuito: Abatedora\" em um inimigo aleatório.",
+        "tag": "Aprimoramento"
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Ataque",
+        "fullDesc": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Roda de Chamas",
+        "fullDesc": "Após cada utilização de \"Intuito: Corte\", o próximo \"Intuito: Corte\" será substituído por \"Intuito: Abatedora\".",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Amainar Demoníaco",
+        "fullDesc": "Enquanto está no estado de \"Apara\", resiste a penalidades de Controle Negativo recebidas e reduz o Dano recebido em {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Verdadeira Cisão",
+        "fullDesc": "Ao utilizar um Contra-Ataque, aumenta o ATQ de Yunli em {{1, percent}}%, durando por 1 rodada.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "Lâmina Experiente Livre de Mácula",
+      "desc": "Aumenta o Dano causado por \"Intuito: Corte\" e \"Intuito: Abatedora\" em {{1, percent}}%. Aumenta o número de ocorrências adicionais de Dano para \"Intuito: Abatedora\" em {{2}}."
+    },
+    "2": {
+      "name": "Primeira Luz do Alvorecer",
+      "desc": "Ao causar Dano ao utilizar um Contra-Ataque, ignora {{1, percent}}% da DEF do alvo."
+    },
+    "3": {
+      "name": "Domínio do Ferro",
+      "desc": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.<br>Nv. do ATQ Básico +1, até no máximo Nv. 10."
+    },
+    "4": {
+      "name": "Canção de Ferro do Artesão",
+      "desc": "Após utilizar \"Intuito: Corte\" ou \"Intuito: Abatedora\", aumenta a RES a Efeito dessa unidade em {{1, percent}}%, durando por {{2}} rodada(s)."
+    },
+    "5": {
+      "name": "A Lâmina Ancestral Sobrevive a Tudo",
+      "desc": "Nv. da Perícia +2, até no máximo Nv. 15.<br>Nv. do Talento +2, até no máximo Nv. 15."
+    },
+    "6": {
+      "name": "Caminho da Lâmina, Vozes da Cítara",
+      "desc": "Enquanto \"Apara\" está ativa, se um inimigo usar ativamente suas habilidades, independentemente se ele atacar Yunli ou não, \"Intuito: Abatedora\" será ativado e o efeito de \"Apara\" será removido. Ao causar Dano através do \"Intuito: Corte\" ou \"Intuito: Abatedora\", aumenta a Chance de CRIT em {{1, percent}}% e a PEN de RES a Físico em {{2, percent}}%."
+    }
+  }
+}

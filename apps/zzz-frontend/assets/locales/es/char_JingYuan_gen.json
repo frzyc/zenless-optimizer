@@ -1,0 +1,103 @@
+{
+  "name": "Jing Yuan",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "Luz reluciente",
+        "fullDesc": "Inflige un <orangeStrong>{{1, percent}}%</orangeStrong> del ATQ de Jing Yuan como Daño de Rayo a un enemigo.",
+        "shortDesc": "Inflige una pequeña cantidad de Daño de Rayo a un enemigo.",
+        "tag": "ATQ individual"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Cénit agrietador",
+        "fullDesc": "Inflige un <orangeStrong>{{1, percent}}%</orangeStrong> del ATQ de Jing Yuan como Daño de Rayo a todos los enemigos e incrementa en {{2}} los golpes por acción del caballero divino en su siguiente turno.",
+        "shortDesc": "Inflige una pequeña cantidad de Daño de Rayo a todos los enemigos e <orangeStrong>incrementa los golpes por acción del caballero divino</orangeStrong>.",
+        "tag": "ATQ AdE"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Alumbrador",
+        "fullDesc": "Inflige un <orangeStrong>{{1, percent}}%</orangeStrong> del ATQ de Jing Yuan como Daño de Rayo a todos los enemigos e incrementa en {{2}} los golpes por acción del caballero divino en su siguiente turno.",
+        "shortDesc": "Inflige Daño de Rayo a todos los enemigos e <orangeStrong>incrementa los golpes por acción del caballero divino</orangeStrong>.",
+        "tag": "ATQ AdE"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Extirpación del prana",
+        "fullDesc": "Invoca al caballero divino al comenzar la batalla. El caballero divino tiene inicialmente {{1}} pts. de VEL y {{4}} golpes por acción. Los golpes que inflige durante su acción se consideran ataques adicionales. Cada golpe inflige un <orangeStrong>{{2, percent}}%</orangeStrong> del ATQ de Jing Yuan como Daño de Rayo a un enemigo aleatorio, y los enemigos adyacentes reciben un Daño de Rayo equivalente al {{5, percent}}% del que recibe el objetivo principal.<br>El caballero divino puede acumular {{6}} golpes por acción como máximo. Cada vez que sus golpes por acción se incrementan en 1, su VEL aumenta en {{3}} pts. Cuando finaliza su acción, su VEL y sus golpes por acción regresan al valor original.<br>Cuando Jing Yuan es derrotado, el caballero divino desaparece.<br>Cuando Jing Yuan está afectado por estados negativos de Control, el caballero divino tampoco puede realizar ninguna acción.",
+        "shortDesc": "Invoca al caballero divino al comenzar la batalla. Al actuar, el caballero divino lanza un ataque adicional que <orangeStrong>inflige una pequeña cantidad de Daño de Rayo</orangeStrong> <orangeStrong>automáticamente</orangeStrong> a un enemigo al azar y a los objetivos adyacentes.",
+        "tag": "Rebote"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Invocación del espíritu",
+        "fullDesc": "Tras usar la técnica, al comenzar la siguiente batalla, los golpes por acción del caballero divino en su primer turno se incrementan en {{1}}.",
+        "shortDesc": "Tras usar la técnica, en la siguiente batalla <orangeStrong>se incrementan los golpes por acción del caballero divino</orangeStrong>.",
+        "tag": "Potenciación"
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Ataque",
+        "fullDesc": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Rompeformaciones",
+        "fullDesc": "Si la cantidad de golpes por acción del caballero divino es igual o superior a {{1}} en el siguiente turno, su Daño CRIT aumenta en un {{2, percent}}% durante el siguiente turno.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Tengo un plan",
+        "fullDesc": "Recupera {{1}} pts. de energía al comenzar la batalla.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Jaque mate",
+        "fullDesc": "Tras usar la habilidad básica, la Prob. CRIT de Jing Yuan aumenta en un {{1, percent}}% durante {{2}} turnos.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "Corte, acantilados cercenados",
+      "desc": "Cuando el caballero divino lanza un ataque, el multiplicador de daño que inflige a los enemigos adyacentes al objetivo aumenta adicionalmente en una cantidad equivalente al {{1, percent}}% del multiplicador de daño del objetivo principal."
+    },
+    "2": {
+      "name": "Falange, soles bloqueados",
+      "desc": "Tras la acción del caballero divino, el ATQ básico, la habilidad básica y la habilidad definitiva de Jing Yuan infligen un {{1, percent}}% más de daño durante {{2}} turnos."
+    },
+    "3": {
+      "name": "Golpe, luz destrozada",
+      "desc": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10)."
+    },
+    "4": {
+      "name": "Espada, estrellas derribadas",
+      "desc": "Por cada golpe que inflige el caballero divino, Jing Yuan recupera {{1}} pts. de energía."
+    },
+    "5": {
+      "name": "Veteranía, muerte conquistada",
+      "desc": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15)."
+    },
+    "6": {
+      "name": "Conjuro, enemigos derrotados",
+      "desc": "Cada golpe que inflige el caballero divino hace que el objetivo enemigo entre en un estado de Vulnerabilidad.<br>Los enemigos vulnerables reciben un {{1, percent}}% más de daño hasta que termine el ataque actual del caballero divino. Este efecto se puede acumular hasta {{2}} veces."
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Clara",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "I Want to Help",
+        "fullDesc": "Deals Physical DMG equal to <orangeStrong>{{1, percent}}%</orangeStrong> of Clara's ATK to a single enemy.",
+        "shortDesc": "Deals minor Physical DMG to a single enemy.",
+        "tag": "Single Target"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Svarog Watches Over You",
+        "fullDesc": "Deals Physical DMG equal to <orangeStrong>{{1, percent}}%</orangeStrong> of Clara's ATK to all enemies, and additionally deals Physical DMG equal to <orangeStrong>{{2, percent}}%</orangeStrong> of Clara's ATK to enemies marked by Svarog with a Mark of Counter.<br>All Marks of Counter will be removed after this Skill is used.",
+        "shortDesc": "Deals Physical DMG to all enemies. <orangeStrong>Additionally deals Physical DMG</orangeStrong> to targets with Marks of Counter.",
+        "tag": "AoE"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Promise, Not Command",
+        "fullDesc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra <orangeStrong>{{4, percent}}%</orangeStrong>, and she has greatly increased chances of being attacked by enemies for {{3}} turn(s).<br>In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by <orangeStrong>{{2, percent}}%</orangeStrong>. Enemies adjacent to it take 50% of the DMG dealt to the primary target enemy. Enhanced Counter(s) can take effect {{5}} time(s).",
+        "shortDesc": "<orangeStrong>Reduces DMG received</orangeStrong>, increases chance to be attacked by enemies, and enhances Counters.",
+        "tag": "Enhance"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Because We're Family",
+        "fullDesc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by {{3, percent}}%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to <orangeStrong>{{2, percent}}%</orangeStrong> of Clara's ATK.",
+        "shortDesc": "<orangeStrong>DMG received from enemy attacks is reduced</orangeStrong>. Enemies who attack Clara will be marked with a Mark of Counter and <orangeStrong>met with Svarog's Counter</orangeStrong>, dealing Physical DMG.",
+        "tag": "Single Target"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "A Small Price for Victory",
+        "fullDesc": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for {{1}} turn(s).",
+        "shortDesc": "Attacks the enemy. After entering battle, this character's chance of being attacked by enemies increases.",
+        "tag": ""
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Attack",
+        "fullDesc": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Kinship",
+        "fullDesc": "When attacked, this unit has a {{1, percent}}% fixed chance to dispel 1 debuff placed on them.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Under Protection",
+        "fullDesc": "Increases the chance to resist Crowd Control debuffs by {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Revenge",
+        "fullDesc": "Increases DMG dealt by Svarog's Counter by {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "A Tall Figure",
+      "desc": "Using Skill will not remove Marks of Counter on the enemy."
+    },
+    "2": {
+      "name": "A Tight Embrace",
+      "desc": "After using the Ultimate, ATK increases by {{1, percent}}% for {{2}} turn(s)."
+    },
+    "3": {
+      "name": "Cold Steel Armor",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.<br>Basic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    "4": {
+      "name": "Family's Warmth",
+      "desc": "After Clara is hit, the DMG taken by Clara is reduced by {{1, percent}}%. This effect lasts until the start of her next turn."
+    },
+    "5": {
+      "name": "A Small Promise",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.<br>Talent Lv. +2, up to a maximum of Lv. 15."
+    },
+    "6": {
+      "name": "Long Company",
+      "desc": "After other allies are attacked, Svarog also has a {{1, percent}}% fixed chance to trigger a Counter on the attacker and mark them with a \"Mark of Counter.\" When using Ultimate, the number of Enhanced Counters increases by {{2}}."
+    }
+  }
+}

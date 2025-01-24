@@ -1,0 +1,7 @@
+{
+  "name": "Collapsing Sky",
+  "passive": {
+    "name": "Havoc",
+    "description": "The wearer's Basic ATK and Skill deal <orangeStrong>{{1, percent}}%</orangeStrong> more DMG."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Néant",
+  "passive": {
+    "name": "Déchu",
+    "description": "Les chances d'appliquer des effets du porteur augmentent de <orangeStrong>{{1, percent}}%</orangeStrong> pendant {{2}} tours en début de combat."
+  }
+}

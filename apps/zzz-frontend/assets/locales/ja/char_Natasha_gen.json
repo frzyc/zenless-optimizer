@@ -1,0 +1,103 @@
+{
+  "name": "ナターシャ",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "{RUBY_B#じしん}慈心{RUBY_E#}の{RUBY_B#うらがわ}裏側{RUBY_E#}",
+        "fullDesc": "指定した敵単体にナターシャの攻撃力<orangeStrong>{{1, percent}}%</orangeStrong>分の物理属性ダメージを与える。",
+        "shortDesc": "敵単体に少量の物理属性ダメージを与える。",
+        "tag": "単体攻撃"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "{RUBY_B#あい}愛{RUBY_E#}、{RUBY_B#きゅうさい}救済{RUBY_E#}と{RUBY_B#せんたく}選択{RUBY_E#}",
+        "fullDesc": "指定した味方単体のHPをナターシャの最大HP<orangeStrong>{{1, percent(fixed: 1)}}%</orangeStrong>+<orangeStrong>{{4}}</orangeStrong>回復し、その味方のターンが回ってくるたびに、ナターシャの最大HP<orangeStrong>{{2, percent(fixed: 1)}}%</orangeStrong>+<orangeStrong>{{5}}</orangeStrong>のHPを回復させる、{{3}}ターン継続。",
+        "shortDesc": "味方単体の<orangeStrong>HPを回復</orangeStrong>し、その味方に<orangeStrong>HP継続回復</orangeStrong>効果を付与する。",
+        "tag": "回復"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "{RUBY_B#しんせい}新生{RUBY_E#}の{RUBY_B#れい}礼{RUBY_E#}",
+        "fullDesc": "味方全体のHPをナターシャの最大HP<orangeStrong>{{1, percent(fixed: 1)}}%</orangeStrong>+<orangeStrong>{{2}}</orangeStrong>回復する。",
+        "shortDesc": "味方全体の<orangeStrong>HPを回復</orangeStrong>する。",
+        "tag": "回復"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "{RUBY_B#いのち}生命{RUBY_E#}の{RUBY_B#かがや}輝{RUBY_E#}き",
+        "fullDesc": "残りHPが{{1, percent}}%以下の味方に治癒を行う時、ナターシャの治癒量+<orangeStrong>{{2, percent}}%</orangeStrong>、この効果は持続治癒効果にも有効。",
+        "shortDesc": "残りHPが低い味方に治癒を行う時、治癒量がアップする。この効果は持続治癒効果にも有効。",
+        "tag": "強化"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "{RUBY_B#さいみんけんきゅう}催眠研究{RUBY_E#}",
+        "fullDesc": "敵を攻撃。戦闘に入った後、ランダムな敵単体にナターシャの攻撃力{{4, percent}}%分の物理属性ダメージを与え、{{1, percent}}%の基礎確率で敵単体それぞれを虚弱状態にする。<br>虚弱状態の敵の、味方への与ダメージ-{{2, percent}}%、{{3}}ターン継続。",
+        "shortDesc": "敵を攻撃。戦闘に入った後、ランダムな敵単体に少量の物理属性ダメージを与え、高確率で敵それぞれを虚弱状態にする。",
+        "tag": ""
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "攻撃",
+        "fullDesc": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "{RUBY_B#じょかん}舒緩{RUBY_E#}",
+        "fullDesc": "戦闘スキルを発動した時、指定した味方単体のデバフを{{1}}つ解除する。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "{RUBY_B#いしゃ}医者{RUBY_E#}",
+        "fullDesc": "ナターシャの治癒量+{{1, percent}}%。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "{RUBY_B#せっせい}摂生{RUBY_E#}",
+        "fullDesc": "戦闘スキルの持続回復効果の継続時間+{{1}}ターン。",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "{RUBY_B#やくりへんしき}薬理遍識{RUBY_E#}",
+      "desc": "攻撃を受けた後、残りHPが{{1, percent}}%以下の場合、自身に治癒を1回行い、自身の最大HP{{2, percent}}%+{{3}}のHPを回復する。この効果は一度の戦闘で1回まで発動できる。"
+    },
+    "2": {
+      "name": "{RUBY_B#りんしょうけんがく}臨床研学{RUBY_E#}",
+      "desc": "必殺技を発動した時、残りHPが{{1, percent}}%以下の味方に{{2}}ターン継続する持続治癒効果を付与する。その味方のターンが回ってきた時、ナターシャの最大HP{{3, percent}}%+{{4}}のHPを回復する。"
+    },
+    "3": {
+      "name": "{RUBY_B#いんびょうとうやく}因病投薬{RUBY_E#}",
+      "desc": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。"
+    },
+    "4": {
+      "name": "{RUBY_B#みょうしゅかいしゅん}妙手回春{RUBY_E#}",
+      "desc": "攻撃を受けた後、さらにEPを{{1}}回復する。"
+    },
+    "5": {
+      "name": "{RUBY_B#みびょうりょうじ}未病療治{RUBY_E#}",
+      "desc": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。"
+    },
+    "6": {
+      "name": "{RUBY_B#いしゃじんしん}医者仁心{RUBY_E#}",
+      "desc": "通常攻撃を行った時、さらにナターシャの最大HP{{1, percent}}%分の物理属性ダメージを与える。"
+    }
+  }
+}

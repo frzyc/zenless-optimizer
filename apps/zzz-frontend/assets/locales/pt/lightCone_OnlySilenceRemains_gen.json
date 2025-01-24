@@ -1,0 +1,7 @@
+{
+  "name": "Apenas o Silêncio Sobrou",
+  "passive": {
+    "name": "Registro",
+    "description": "Aumenta em <orangeStrong>{{1, percent}}%</orangeStrong> o ATQ do usuário. Se houver 2 inimigos ou menos em campo, aumenta em <orangeStrong>{{2, percent}}%</orangeStrong> a Chance de CRIT do usuário."
+  }
+}

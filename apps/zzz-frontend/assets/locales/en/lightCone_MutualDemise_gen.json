@@ -1,0 +1,7 @@
+{
+  "name": "Mutual Demise",
+  "passive": {
+    "name": "Legion",
+    "description": "If the wearer's current HP percentage is lower than {{1, percent}}%, CRIT Rate increases by <orangeStrong>{{2, percent}}%</orangeStrong>."
+  }
+}

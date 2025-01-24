@@ -1,0 +1,103 @@
+{
+  "name": "Misha",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "E—Excuse Me, Please!",
+        "fullDesc": "Mengakibatkan Ice DMG sebesar <orangeStrong>{{1, percent}}%</orangeStrong> ATK Misha pada satu musuh yang ditargetkan.",
+        "shortDesc": "Mengakibatkan Ice DMG dalam jumlah kecil pada 1 musuh.",
+        "tag": "Single Target"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "R—Room Service!",
+        "fullDesc": "Menambah {{3}} Hit untuk Hits Per Action Ultimate Misha yang berikutnya. Mengakibatkan Ice DMG pada 1 musuh yang ditargetkan sebesar <orangeStrong>{{1, percent}}%</orangeStrong> ATK Misha, dan mengakibatkan Ice DMG sebesar <orangeStrong>{{2, percent}}%</orangeStrong> ATK Misha pada target di sekitarnya.",
+        "shortDesc": "Mengakibatkan Ice DMG pada 1 musuh dan mengakibatkan Ice DMG dalam jumlah kecil pada target di sekitarnya, serta menambah <orangeStrong>jumlah Hits Per Action untuk Ultimate</orangeStrong> Misha yang berikutnya.",
+        "tag": "Blast"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "G—Gonna Be Late!",
+        "fullDesc": "Memiliki {{1}} Hits Per Action secara default. Pertama-tama, akan melancarkan 1 Hit serangan pada 1 musuh yang ditargetkan dan mengakibatkan Ice DMG sebesar <orangeStrong>{{2, percent}}%</orangeStrong> ATK Misha. Kemudian, sisa Hit-nya akan mengakibatkan Ice DMG pada musuh secara acak sebesar <orangeStrong>{{2, percent}}%</orangeStrong> ATK Misha. Sebelum setiap Hit-nya mengenai target, memiliki <orangeStrong>{{3, percent(fixed: 1)}}%</orangeStrong> Peluang Dasar untuk membuat target memasuki status Frozen selama 1 giliran.<br>Target musuh tidak dapat beraksi saat berada dalam status Frozen, di saat bersamaan setiap saat gilirannya dimulai, target juga akan menerima Ice DMG tambahan sebesar <orangeStrong>{{4, percent}}%</orangeStrong> ATK Misha.<br>Ultimate ini maksimal dapat memiliki {{5}} Hits Per Action. Setelah melancarkan Ultimate, jumlah Hits Per Action di-reset kembali ke jumlah default.",
+        "shortDesc": "Mengakibatkan Ice DMG dalam jumlah kecil pada 1 musuh. Total dapat Bounce <orangeStrong>{{1}}</orangeStrong> kali secara default, maksimal dapat Bounce <orangeStrong>{{5}}</orangeStrong> kali. Sebelum setiap Hit-nya mengenai target, berpeluang kecil untuk <orangeStrong>membuat target memasuki status Frozen</orangeStrong>.",
+        "tag": "Bounce"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Horological Escapement",
+        "fullDesc": "Setiap 1 Poin Skill yang dikonsumsi oleh seluruh rekan tim akan menambah {{2}} Hits Per Action untuk Ultimate Misha yang berikutnya, dan juga memulihkan <orangeStrong>{{1, fixed(fixed: 1)}}</orangeStrong> Energy Misha.",
+        "shortDesc": "Setiap <orangeStrong>1 Poin Skill yang dikonsumsi</orangeStrong> seluruh rekan tim akan menambah <orangeStrong>jumlah Hits Per Action untuk Ultimate</orangeStrong> Misha yang berikutnya, dan juga memulihkan Energy Misha.",
+        "tag": "Enhance"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Wait, You Are So Beautiful!",
+        "fullDesc": "Setelah menggunakan Technique, Misha akan menciptakan sebuah dimensi khusus selama {{1}} detik. Musuh dalam dimensi khusus akan memasuki status \"Dream Prison\", dan aksinya akan terhenti. Setelah memasuki pertempuran melawan musuh berstatus \"Dream Prison\", jumlah Hits Per Action untuk Ultimate Misha yang berikutnya akan bertambah {{2}} Hit. Hanya boleh ada 1 efek dimensi khusus ciptaan rekan tim dalam satu waktu.",
+        "shortDesc": "Menciptakan sebuah dimensi khusus. Aksi musuh dalam dimensi khusus akan terhenti. Setelah memasuki pertempuran melawan musuh dalam dimensi khusus, akan menambah <orangeStrong>jumlah Hits Per Action untuk Ultimate</orangeStrong> Misha yang berikutnya.",
+        "tag": "Impair"
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Attack",
+        "fullDesc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Release",
+        "fullDesc": "Sebelum Hit pertama dari Ultimate mengenai target, peluang dasar untuk membuat target memasuki status Frozen meningkat {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Interlock",
+        "fullDesc": "Saat melancarkan Ultimate, meningkatkan {{1, percent}}% Effect Hit Rate sampai aksi Ultimate kali ini berakhir.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "Transmission",
+        "fullDesc": "Saat mengakibatkan DMG pada target musuh berstatus Frozen, CRIT DMG meningkat {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "Whimsicality of Fancy",
+      "desc": "Saat melancarkan Ultimate, untuk setiap 1 target musuh yang ada di medan pertempuran, akan menambah ekstra {{1}} Hit untuk Hits Per Action dari Ultimate kali ini, maksimal hingga ekstra {{2}} Hit."
+    },
+    "2": {
+      "name": "Yearning of Youth",
+      "desc": "Sebelum setiap Hit dari Ultimate mengenai target, memiliki {{3, percent}}% Peluang Dasar untuk mengurangi {{1, percent}}% DEF target selama {{2}} giliran."
+    },
+    "3": {
+      "name": "Vestige of Happiness",
+      "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10."
+    },
+    "4": {
+      "name": "Visage of Kinship",
+      "desc": "Meningkatkan {{1, percent}}% DMG Multiplier dari setiap Hit Ultimate."
+    },
+    "5": {
+      "name": "Genesis of First Love",
+      "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15."
+    },
+    "6": {
+      "name": "Estrangement of Dream",
+      "desc": "Saat melancarkan Ultimate, meningkatkan {{2, percent}}% DMG yang diakibatkan diri sendiri hingga giliran berakhir. Dan pada pelancaran Skill Misha yang berikutnya, akan memulihkan {{1}} Poin Skill untuk rekan tim."
+    }
+  }
+}

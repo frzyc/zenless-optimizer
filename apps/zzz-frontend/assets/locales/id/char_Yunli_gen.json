@@ -1,0 +1,103 @@
+{
+  "name": "Yunli",
+  "abilities": {
+    "basic": {
+      "0": {
+        "name": "Galespin Summersault",
+        "fullDesc": "Mengakibatkan Physical DMG sebesar <orangeStrong>{{1, percent}}%</orangeStrong> ATK Yunli pada 1 musuh yang ditargetkan.",
+        "shortDesc": "Mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh.",
+        "tag": "Single Target"
+      }
+    },
+    "skill": {
+      "0": {
+        "name": "Bladeborne Quake",
+        "fullDesc": "Memulihkan HP sebesar <orangeStrong>{{3, percent(fixed: 1)}}%</orangeStrong> ATK Yunli + <orangeStrong>{{4}}</orangeStrong>, dan mengakibatkan Physical DMG sebesar <orangeStrong>{{1, percent}}%</orangeStrong> ATK Yunli pada 1 musuh yang ditargetkan, serta mengakibatkan Physical DMG sebesar <orangeStrong>{{2, percent}}%</orangeStrong> ATK Yunli pada musuh di sekitar target.",
+        "shortDesc": "Memulihkan HP diri sendiri dan mengakibatkan Physical DMG pada 1 musuh, serta mengakibatkan Physical DMG dalam jumlah kecil pada target di sekitarnya.",
+        "tag": "Blast"
+      }
+    },
+    "ult": {
+      "0": {
+        "name": "Earthbind, Etherbreak",
+        "fullDesc": "Mengonsumsi {{8}} Energy. Yunli akan memperoleh \"Parry\" dan membuat seluruh musuh memasuki status Taunt, berlangsung hingga akhir giliran dari rekan tim atau musuh yang berikutnya. Selain itu, CRIT DMG yang diakibatkan Serangan Balasan Yunli yang berikutnya akan meningkat <orangeStrong>{{2, percent}}%</orangeStrong>, dan saat memicu efek Serangan Balasan dari Talent, akan diganti menjadi melancarkan Serangan Balasan \"Intuit: Cull\", dan di saat bersamaan juga menghapus efek \"Parry\". Jika selama berstatus \"Parry\" tidak memicu Serangan Balasan, maka saat status berakhir, Yunli akan segera melancarkan Serangan Balasan \"Intuit: Slash\" pada target musuh acak.<br><br>\"Intuit: Slash\": Mengakibatkan Physical DMG sebesar <orangeStrong>{{1, percent}}%</orangeStrong> ATK Yunli pada target, dan mengakibatkan Physical DMG sebesar <orangeStrong>{{6, percent}}%</orangeStrong> ATK Yunli pada target di sekitarnya.<br><br>\"Intuit: Cull\": Mengakibatkan Physical DMG sebesar <orangeStrong>{{1, percent}}%</orangeStrong> ATK Yunli pada target, dan mengakibatkan Physical DMG sebesar <orangeStrong>{{6, percent}}%</orangeStrong> ATK Yunli pada target di sekitarnya, lalu mengakibatkan ekstra {{4}} kali DMG, yang setiap DMG-nya mengakibatkan Physical DMG sebesar <orangeStrong>{{7, percent}}%</orangeStrong> ATK Yunli pada musuh acak.<br><br>Saat Yunli mengakibatkan DMG melalui kemampuan ini, akan dianggap mengakibatkan Ultimate DMG.",
+        "shortDesc": "Memasuki status \"Parry\" dan membuat seluruh musuh memasuki status Taunt. Selama durasi \"Parry\", setelah terkena serangan akan memicu <orangeStrong>Serangan Balasan yang kuat</orangeStrong>, <orangeStrong>mengakibatkan Physical DMG</orangeStrong> pada penyerang dan target di sekitarnya. Kemudian, akan mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh, total Bounce sebanyak 6 kali. Jika tidak memicu Serangan Balasan saat status \"Parry\" berlangsung, maka saat status berakhir akan mengakibatkan Physical DMG pada target musuh acak dan musuh di sekitarnya.",
+        "tag": "Enhance"
+      }
+    },
+    "talent": {
+      "0": {
+        "name": "Flashforge",
+        "fullDesc": "Saat setelah Yunli terkena serangan dari target musuh, akan memulihkan {{3}} Energy tambahan dan segera melancarkan Serangan Balasan pada penyerang, mengakibatkan Physical DMG sebesar <orangeStrong>{{1, percent}}%</orangeStrong> ATK Yunli pada penyerang dan mengakibatkan Physical DMG sebesar <orangeStrong>{{2, percent}}%</orangeStrong> pada target di sekitarnya.<br>Jika target Serangan Balasan tidak ada, maka akan melancarkan Serangan Balasan pada target musuh acak.",
+        "shortDesc": "Saat Yunli diserang oleh target musuh, akan memulihkan ekstra Energy dan segera melancarkan Serangan Balasan, mengakibatkan Physical DMG pada penyerang dan Physical DMG dalam jumlah kecil pada target di sekitarnya.",
+        "tag": "Blast"
+      }
+    },
+    "technique": {
+      "0": {
+        "name": "Posterior Precedence",
+        "fullDesc": "Membuat diri sendiri memperoleh efek \"Ward\" selama {{2}} detik. Selama durasi, setelah menyerang musuh atau terkena serangan untuk memasuki pertempuran, akan segera melancarkan \"Intuit: Cull\" pada musuh acak dan membuat DMG yang diakibatkan dari serangan kali ini meningkat {{1, percent}}%.",
+        "shortDesc": "Membuat diri sendiri memperoleh efek \"Ward\" selama 20 detik. Selama durasi tersebut, setelah menyerang musuh atau terkena serangan untuk memasuki pertempuran, akan segera melancarkan \"Intuit: Cull\" pada musuh acak.",
+        "tag": "Enhance"
+      }
+    },
+    "overworld": {
+      "0": {
+        "name": "Attack",
+        "fullDesc": "Setelah menyerang musuh dan memasuki pertempuran, akan mengurangi Toughness target musuh sesuai dengan tipe Toughness-nya.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility1": {
+      "0": {
+        "name": "Fiery Wheel",
+        "fullDesc": "Setiap kali setelah melancarkan 1 kali \"Intuit: Slash\", \"Intuit: Slash\" yang berikutnya akan diganti menjadi \"Intuit: Cull\".",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility2": {
+      "0": {
+        "name": "Demon Quell",
+        "fullDesc": "Saat berstatus \"Parry\", akan menahan efek Crowd Control Debuff yang diterima, serta mengurangi DMG yang diterima sebesar {{1, percent}}%.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    },
+    "bonusAbility3": {
+      "0": {
+        "name": "True Sunder",
+        "fullDesc": "Saat melancarkan Serangan Balasan, ATK Yunli meningkat {{1, percent}}%, berlangsung selama 1 giliran.",
+        "shortDesc": "",
+        "tag": ""
+      }
+    }
+  },
+  "ranks": {
+    "1": {
+      "name": "Weathered Blade Does Not Sully",
+      "desc": "DMG yang diakibatkan \"Intuit: Slash\" dan \"Intuit: Cull\" meningkat {{1, percent}}%, jumlah tambahan DMG dari \"Intuit: Cull\" bertambah {{2}}."
+    },
+    "2": {
+      "name": "First Luster Breaks Dawn",
+      "desc": "Saat mengakibatkan DMG dengan melancarkan Serangan Balasan, akan mengabaikan {{1, percent}}% DEF target musuh."
+    },
+    "3": {
+      "name": "Mastlength Twirls Mountweight",
+      "desc": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10."
+    },
+    "4": {
+      "name": "Artisan's Ironsong",
+      "desc": "Setelah melancarkan \"Intuit: Slash\" atau \"Intuit: Cull\", akan meningkatkan {{1, percent}}% Effect RES diri sendiri, berlangsung selama {{2}} giliran."
+    },
+    "5": {
+      "name": "Blade of Old Outlasts All",
+      "desc": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15."
+    },
+    "6": {
+      "name": "Walk in Blade, Talk in Zither",
+      "desc": "Selama durasi \"Parry\", saat musuh melancarkan kemampuan secara aktif, \"Intuit: Cull\" akan terpicu dan menghapus efek \"Parry\" tanpa peduli apakah musuh tersebut menyerang Yunli atau tidak. Saat melancarkan \"Intuit: Slash\" atau \"Intuit: Cull\" untuk mengakibatkan DMG, CRIT Rate Yunli akan meningkat {{1, percent}}%, dan Physical RES PEN akan meningkat {{2, percent}}%."
+    }
+  }
+}
