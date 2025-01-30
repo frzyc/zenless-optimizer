@@ -1,7 +1,0 @@
-{
-  "name": "Abonniere für mehr!",
-  "passive": {
-    "name": "Gib uns einen Like, bevor du gehst!",
-    "description": "Erhöht den durch Standardangriffe und Fertigkeiten verursachten SCH des Trägers um <orangeStrong>{{1, percent}}%</orangeStrong>. Dieser Effekt wird zusätzlich um <orangeStrong>{{2, percent}}%</orangeStrong> erhöht, wenn die aktuelle Energie des Trägers den Höchstwert erreicht."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "name": "Adversarial",
-  "passive": {
-    "name": "Alliance",
-    "description": "หลังจากผู้สวมใส่กำจัดศัตรูเป้าหมาย ความเร็วจะเพิ่มขึ้น <orangeStrong>{{1, percent}}%</orangeStrong> เป็นเวลา {{2}} เทิร์น"
-  }
-}

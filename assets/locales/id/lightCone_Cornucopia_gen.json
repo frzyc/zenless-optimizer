@@ -1,7 +1,0 @@
-{
-  "name": "Cornucopia",
-  "passive": {
-    "name": "Prosperity",
-    "description": "Meningkatkan <orangeStrong>{{1, percent}}%</orangeStrong> Outgoing Healing saat pengguna melancarkan Skill atau Ultimate."
-  }
-}

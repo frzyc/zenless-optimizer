@@ -1,6 +1,0 @@
-{
-  "setName": "Broken Keel",
-  "setEffects": {
-    "2": "Increases the wearer's Effect RES by {{1, percent}}%. When the wearer's Effect RES is at {{2, percent}}% or higher, all allies' CRIT DMG increases by {{3, percent}}%."
-  }
-}

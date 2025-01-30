@@ -1,7 +1,0 @@
-{
-  "name": "Tendência do Mercado Universal",
-  "passive": {
-    "name": "Um Novo Embaralhamento",
-    "description": "Aumenta em <orangeStrong>{{1, percent}}%</orangeStrong> a DEF do usuário. Ao ser atacado, o usuário tem <orangeStrong>{{2, percent}}%</orangeStrong> de chance-base de causar Queimadura ao inimigo. A cada rodada, o usuário causa Dano Contínuo igual a <orangeStrong>{{3, percent}}%</orangeStrong> da DEF do usuário por {{4}} rodada(s)."
-  }
-}

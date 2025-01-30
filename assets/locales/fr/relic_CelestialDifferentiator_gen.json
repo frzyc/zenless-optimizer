@@ -1,6 +1,0 @@
-{
-  "setName": "Différenciateur céleste",
-  "setEffects": {
-    "2": "Augmente les DGT critiques du porteur de {{1, percent}}%. Lorsque les DGT critiques du porteur atteignent {{2, percent}}% ou plus, ses chances de coup critique augmentent de {{3, percent}}% dès l'entrée en combat et ce jusqu'à la fin de sa première attaque."
-  }
-}

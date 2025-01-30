@@ -1,7 +1,0 @@
-{
-  "name": "Ký Hiệu Kéo Dài",
-  "passive": {
-    "name": "Dấu Lặng",
-    "description": "Tăng <orangeStrong>{{1, percent}}%</orangeStrong> Tấn Công Kích Phá của người trang bị, sát thương gây ra cho địch ở trạng thái Sốc Điện hoặc Bào Mòn tăng <orangeStrong>{{2, percent}}%</orangeStrong>, hiệu ứng này cũng có hiệu lực với sát thương duy trì."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "name": "Pioneirismo",
-  "passive": {
-    "name": "CPI",
-    "description": "Ao aplicar Quebra de Fraqueza contra um inimigo-alvo, o usuário restaura PV em <orangeStrong>{{1, percent}}%</orangeStrong> de seus PV máximos."
-  }
-}

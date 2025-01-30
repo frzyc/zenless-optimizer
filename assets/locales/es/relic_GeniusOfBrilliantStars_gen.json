@@ -1,7 +1,0 @@
-{
-  "setName": "Genio de las estrellas relucientes",
-  "setEffects": {
-    "2": "Daño Cuántico +{{1, percent}}%.",
-    "4": "Cuando el portador inflige daño a un objetivo enemigo, ignora el {{1, percent}}% de su DEF. Si el objetivo tiene Debilidad Cuántica, ignora un {{2, percent}}% adicional de su DEF."
-  }
-}

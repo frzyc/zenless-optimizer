@@ -1,7 +1,0 @@
-{
-  "name": "Loop",
-  "passive": {
-    "name": "Pursuit",
-    "description": "Increases DMG dealt from its wearer to Slowed enemies by <orangeStrong>{{1, percent}}%</orangeStrong>."
-  }
-}

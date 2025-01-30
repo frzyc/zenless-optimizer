@@ -1,7 +1,0 @@
-{
-  "name": "Падение небес",
-  "passive": {
-    "name": "Хаос",
-    "description": "Наносимый базовой атакой и навыком владельца урон повышается на <orangeStrong>{{1, percent}}%</orangeStrong>."
-  }
-}

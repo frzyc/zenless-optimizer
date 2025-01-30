@@ -1,7 +1,0 @@
-{
-  "name": "Conversation post-opératoire",
-  "passive": {
-    "name": "Guérison mutuelle",
-    "description": "Augmente le taux de régénération d'énergie du porteur de <orangeStrong>{{1, percent}}%</orangeStrong> et augmente les soins prodigués de <orangeStrong>{{2, percent}}%</orangeStrong> lors de l'utilisation de son ultime."
-  }
-}

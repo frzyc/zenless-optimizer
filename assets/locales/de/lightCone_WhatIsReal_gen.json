@@ -1,7 +1,0 @@
-{
-  "name": "Sache der Wahrheit",
-  "passive": {
-    "name": "Hypothese",
-    "description": "Erhöht den Brucheffekt des Trägers um <orangeStrong>{{1, percent}}%</orangeStrong>. Stellt nach dem Einsatz des Standardangriffs die LP des Trägers um <orangeStrong>{{2, percent(fixed: 1)}}%</orangeStrong> seiner max. LP plus {{3}} Pkt. wieder her."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "name": "物穰",
-  "passive": {
-    "name": "繁盛",
-    "description": "裝備者施放戰技和終結技時，治療量提高<orangeStrong>{{1, percent}}%</orangeStrong>。"
-  }
-}

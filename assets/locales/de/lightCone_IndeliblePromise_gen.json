@@ -1,7 +1,0 @@
-{
-  "name": "Verewigtes Versprechen",
-  "passive": {
-    "name": "Erbe",
-    "description": "Erhöht den Brucheffekt des Trägers um <orangeStrong>{{1, percent}}%</orangeStrong>. Wenn der Träger seinen Ultimate einsetzt, wird die KRIT-Rate für {{3}} Rd. um <orangeStrong>{{2, percent}}%</orangeStrong> erhöht."
-  }
-}

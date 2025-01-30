@@ -1,7 +1,0 @@
-{
-  "name": "Sans échappatoire",
-  "passive": {
-    "name": "Désespérance",
-    "description": "Augmente l'ATQ du porteur de <orangeStrong>{{1, percent}}%</orangeStrong>. Chaque fois que le porteur élimine un ennemi, il restaure un montant de PV équivalent à <orangeStrong>{{2, percent}}%</orangeStrong> de son ATQ."
-  }
-}

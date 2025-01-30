@@ -1,7 +1,0 @@
-{
-  "name": "Расколовшийся дом",
-  "passive": {
-    "name": "Искоренение",
-    "description": "Урон владельца, наносимый противникам, чьё НР выше {{1, percent}}%, повышается на <orangeStrong>{{2, percent}}%</orangeStrong>."
-  }
-}
