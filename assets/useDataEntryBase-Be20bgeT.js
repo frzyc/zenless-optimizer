@@ -1,0 +1,1 @@
+import{c as o}from"./index-C0_cMtsE.js";function t(a){const[u,s]=o.useState(()=>a==null?void 0:a.get());return o.useEffect(()=>(s(a==null?void 0:a.get()),a==null?void 0:a.follow((c,f)=>c==="update"&&s(f))),[a,s]),u}export{t as u};
