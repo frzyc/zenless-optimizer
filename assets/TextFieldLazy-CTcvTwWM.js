@@ -1,0 +1,1 @@
+import{d as l,as as o,j as r,c3 as c}from"./index-XqG_f4t5.js";function d({value:e,onChange:i,...a}){const[s,n]=l.useState(e);o(e)!==e&&n(e);const u=()=>i(s);return r(c,{value:s,onChange:t=>n(t.target.value),onBlur:u,onKeyDown:t=>t.key==="Enter"&&!a.multiline&&u(),...a})}export{d as T};

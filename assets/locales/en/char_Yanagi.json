@@ -1,0 +1,13 @@
+{
+  "jougenCond": "In Jougen stance",
+  "kagenCond": "In Kagen stance",
+  "polarityDisorderCond": {
+    "0": "Select Polarity Disorder Type",
+    "1": "EX Special",
+    "2": "Ultimate"
+  },
+  "m1Cond": "One or more stacks of Clarity",
+  "m2Cond": "Thrusts used",
+  "m4Cond": "Enemy suffers from Exposed effect",
+  "m6Cond": "In Shinrabanshou state"
+}
