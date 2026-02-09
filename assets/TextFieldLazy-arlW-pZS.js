@@ -1,1 +1,0 @@
-import{d as l,as as o,j as r,ce as c}from"./index-UNr8P2If.js";function d({value:e,onChange:i,...a}){const[s,n]=l.useState(e);o(e)!==e&&n(e);const u=()=>i(s);return r(c,{value:s,onChange:t=>n(t.target.value),onBlur:u,onKeyDown:t=>t.key==="Enter"&&!a.multiline&&u(),...a})}export{d as T};
