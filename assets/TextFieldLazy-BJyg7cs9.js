@@ -1,0 +1,1 @@
+import{d as i,ar as l,j as o,c8 as c}from"./index-CfOSQGk0.js";function d({value:e,onChange:u,...a}){const[n,s]=i.useState(e);l(e)!==e&&s(e);const r=()=>u(n);return o(c,{value:n,onChange:t=>s(t.target.value),onBlur:r,onKeyDown:t=>t.key==="Enter"&&!a.multiline&&r(),...a})}export{d as T};
