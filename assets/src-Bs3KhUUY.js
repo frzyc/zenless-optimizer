@@ -1,0 +1,1 @@
+import{Nd as e,Uu as t,dd as n,hd as r,kd as i,md as a,t as o}from"./index-CR_mKOHl.js";function s(){return a(n,{sx:{my:1},children:r(i,{sx:{display:`flex`,flexDirection:`column`,gap:2},children:[a(e,{maxWidth:`50%`,children:a(t,{})}),a(o,{})]})})}export{s as default};
